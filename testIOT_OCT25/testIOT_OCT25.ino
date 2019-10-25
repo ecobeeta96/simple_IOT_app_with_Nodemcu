@@ -2,13 +2,13 @@
 #include <FirebaseArduino.h>
 #include "ESP8266WiFi.h"
 
-#define FIREBASE_HOST "testiot1oct25.firebaseio.com"
-#define FIREBASE_AUTH "YwQRx9H6RtiiwLhtWJ4HB6lbVEmm6mpGsMC4j7X1"
+#define FIREBASE_HOST "<hostName>.firebaseio.com"
+#define FIREBASE_AUTH "DatabaseSecret"
 #define LED D4
 
 // WiFi parameters to be configured
-const char* ssid = "SLT_4GLTE";
-const char* password = "AF458F57";
+const char* ssid = "WiFiSSID";
+const char* password = "WiFiPassword";
 const char* Ledstatus = "LEDStatus";
 
 void setup(void)
@@ -38,7 +38,7 @@ void setup(void)
 void loop() {
   // Nothing
   int ledst = Firebase.getInt(Ledstatus);
-  Serial.println(ledst);
+  //Serial.println(ledst);
   if(Firebase.getInt(Ledstatus)==1){
     digitalWrite(LED,HIGH);
   }
