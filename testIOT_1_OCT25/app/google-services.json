@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681605431945",
+    "firebase_url": "https://testiot1oct25.firebaseio.com",
+    "project_id": "testiot1oct25",
+    "storage_bucket": "testiot1oct25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681605431945:android:a3f34bf111ccd2cf777c58",
+        "android_client_info": {
+          "package_name": "com.example.testiot_1_oct25"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681605431945-9jtrag96salko0ai6oh1b6mff3l52mr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testiot_1_oct25",
+            "certificate_hash": "6c850c311ae995ed5f0b3ce80384153d11004797"
+          }
+        },
+        {
+          "client_id": "681605431945-k3fmefuo9tjsu756ql6ss5ltujs6sjrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH3mAdzp8NdHLNNNLbQphplQosZiD56_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681605431945-k3fmefuo9tjsu756ql6ss5ltujs6sjrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
